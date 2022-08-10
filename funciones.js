@@ -55,6 +55,6 @@ function buscar() {
 
 function filtrar() {
     const filtrado = peliculas.filter(pelicula => pelicula.nombre.includes(busqueda)) ;
-    console.log("Relacionados por nombre:") ;
+    console.log("Relacionados por letra:") ;
     console.table(filtrado) ;
 }
